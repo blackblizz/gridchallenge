@@ -5,9 +5,13 @@
 }
 
 .image {
-    display: grid;
+    padding: 55px;
     height: unset;
-    grid-gap: 10px;   
+    max-width: 300px;
+    
+    
+    
+    
 }
 
 nav {
@@ -47,6 +51,22 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+
+    nav > ul {
+        list-style-type: none;
+        text-decoration: none;
+        width: 2000px;
+        background-color: white;
+        height: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 40px;
+        padding: 0px;
+    }
+
     .image {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
