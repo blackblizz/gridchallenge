@@ -5,7 +5,7 @@
 }
 
 .image {
-    padding: 55px;
+    padding: 100px;
     height: unset;
     max-width: 100vw;
 }
@@ -124,7 +124,7 @@ a {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     nav {
         display: inline-flex;
         margin: 40px;
@@ -132,7 +132,7 @@ a {
         text-decoration: none;
         color: darkgray;
         height: 40px;
-        width: 100vw;
+        width: 80vw;
         justify-content: flex-start;
         align-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -143,7 +143,7 @@ a {
     nav > ul {
         list-style-type: none;
         text-decoration: none;
-        width: 2000px;
+        
         background-color: white;
         height: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
